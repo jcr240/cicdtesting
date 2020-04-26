@@ -4,6 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "helloworld" # Specify the name of your Lambda function
-        Alias: "mycicd" # Specify the alias for your Lambda function
+        Alias: "cicd" # Specify the alias for your Lambda function
         CurrentVersion: "{{CurrentVersion}}" # Specify the current version of your Lambda function
         TargetVersion: "{{TargetVersion}}" # Specify the version of your Lambda function to deploy
